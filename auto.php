@@ -64,7 +64,7 @@ $mentah = json_decode($resp,true);
 $tokennya = $mentah['token'];
 //print_r($resp);
 if ($tokennya != NULL) {
-  echo "[+] Mencoba Mendaftar Dengan Email : $emailnya | Proxy : $ipnya\n";
+  echo "[+] Mencoba Mendaftar Dengan Email : $emailnya\n";
 } elseif (strpos($resp, 'Kamu terkena batasan')) {
    echo "[-] Gagal Limit\n[+] Mencoba Kembali\n";
    sleep(5);
