@@ -91,7 +91,7 @@ $headers = array(
 );
 curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
-$data = '{"birth_date":"1997-06-09T00:00:00.000002Z","full_name":"'.$fullname.'","gender":"male","profile_card_id":"f60af855-1ebf-4e52-bffe-d9a52f7f2b23","referral_code":"IHSAN194","register_references":["13c59f47-5fbb-487e-b699-944c4799658b","6ebc285c-655b-4c9c-a2e0-1959d870c23a","a9401613-ec53-41a6-b268-805068ccae51","671adc7b-3e78-479b-9873-eee7c6ebc723"]}';
+$data = '{"birth_date":"1997-06-09T00:00:00.000002Z","full_name":"'.$fullname.'","gender":"male","profile_card_id":"f60af855-1ebf-4e52-bffe-d9a52f7f2b23","referral_code":"IHSAN194","register_references":["13c59f47-5fbb-487e-b699-944c4799658b","6ebc285c-655b-4c9c-a2e0-1959d870c23a","a9401613-ec53-41a6-b268-805068ccae51","671adc7b-3e78-479b-9873-eee7c6ebc723"]}';//ganti kode reffmu
 
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
 
